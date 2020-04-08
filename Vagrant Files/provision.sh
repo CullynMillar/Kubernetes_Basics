@@ -14,3 +14,5 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 #Install NodeJS for the NodeJS application compilation automation
 sudo apt install nodejs -y
+#create test account
+sudo useradd test_account
